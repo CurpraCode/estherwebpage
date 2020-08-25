@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.navbar{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #b24fc5;
+	background-image: linear-gradient(
+		
+		rgba(223, 67, 171, 0.8),
+		rgba(51, 194, 219, 0.7)
+	  );
+	height: 70px;
+}
+.li-style, a{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 20px;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 20px;
+}
+h1{
+	font-family: kingofthieves;
+	font-size: 29px;
+	text-shadow: 4px 4px 10px white;
+}
+h1:hover{
+	transform: scale(1);
+	transition:  linear 0.6s;
+	text-shadow: 4px 4px 10px;
+}
+.a:hover{
+	transform: scale(0.9);
+	transition:  linear 0.6s;
+	background-color: #4f4fc5;
+	color: white;
+	border: 0px solid white;
+}
+
+.a{
+	border: 0px solid white;
+	border-radius: 30px;
+	padding: 2px 10px 2px 10px;
+	padding: 17px;
+	background-color: transparent; 
+}
+main{
+	margin: 0px 90px 0px 90px
+}
+
+.sec1{
+	margin-top: 170px;
+	padding-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.col1{
+	margin-right: 10%;
+	
+	/*flex-basis: 1px;*/
+}
+.btn-lg{
+	display: flex;
+	/*justify-content: 20px;*/
+	text-decoration: none;
+	margin-top: 30px;
+
+
+}
+.btn-lg a{
+	border: 0px solid black;
+	border-radius: 25px;
+	font-family: monospace;
+	font-size: 25px;
+	box-shadow: 1px 1px 12px 2px #2ff0f1;
+
+}
+.btn-lg a:nth-child(1){ 
+	padding: 15px 35px 15px 35px;
+	color: white;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,87,221,1) 100%);
+}
+.btn-lg a:nth-child(2){
+	background: #F554EF;
+background: -webkit-linear-gradient(top right, #F554EF, #19B3E1);
+background: -moz-linear-gradient(top right, #F554EF, #19B3E1);
+background: linear-gradient(to bottom left, #F554EF, #19B3E1);
+ margin-left: 40px;
+ padding: 15px 20px 15px 20px;
+ color: black; 
+}
+.btn-lg a:hover{
+	transition:  linear 1s;
+	background-color: #2f60f1;
+	color: white; 
+	box-shadow: none;
+	
+}
+.btn-lg a:nth-child(1):hover{
+	transition:  linear 1s;
+	background-color: pink;
+	color: black;
+
+}
+ h2{
+ 	margin-top: 40px;
+	margin-bottom: 30px;
+	font-size:  50px;
+	font-family: poppins, san-serif;
+}
+#para{
+	font-size: 21px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.picset{
+	display:flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	flex-wrap: wrap;
+}
+
+#ed-img{
+	width: 300px;
+	height: 400px;
+	border-radius: 30px;
+	padding: 0;
+	box-sizing: border-box;
+	flex-basis: 0%;
+	
+}
+img{
+	width: 400px;
+	height: 500px;
+	border-radius: 50px 0px 50px 0px;
+	box-shadow: 3px 3px 12px 7px #C043D1;
+}
+img:hover{
+	transition: linear 1.2s;
+	transform: scale(1.1);
+	box-shadow: 3px 3px 12px 7px #4A7FE6;
+}
+
+
+.bottom{
+	margin-top: 90px;
+	
+}
+.side-text{
+	display: flex;
+	margin-top: 80px;
+	justify-content: space-between;
+}
+article{
+	text-align: center;
+	line-height:30px;
+	margin-right: 30px;
+}
+ h3{
+	font-family: monospace;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #4AA1E6;
+	text-shadow: 3px 3px 3px black;
+
+}
+.text{
+	margin-top: 30px;
+}
+
+#my-links{
+	display: flex;
+	margin-left: 40%;
+	/*margin-right: 37%;*/
+	padding-top: 30px;
+}
+
+#my-links a{
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	font-size: 28px;
+	letter-spacing: 70px;
+	color: white;
+	border:0px solid;
+	border-radius: 50px;
+	background-color: #845EC2;
+
+}
+#my-links a:hover{
+	transition: linear 1.4s;
+	transform: scale(0.6); 
+	box-shadow: 0px 0px 8px 10px #B3CFE6; 
+	color: black;
+	background-color: #40FF7C;
+}
+#line{
+	margin-top: 40px;
+	border: 0px;
+	border-top: 2px solid white;
+}
+#descrip{	
+	padding-bottom: 40px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #4AA1E6;
+	text-shadow: 3px 3px 5px black;
+
+}
+footer{
+background: rgb(178,79,197);
+background: linear-gradient(53deg, rgba(178,79,197,1) 32%, rgba(47,240,241,1) 100%);
+}
